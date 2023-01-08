@@ -1,2 +1,0 @@
-// Mongo URI
-// Language (Programming)

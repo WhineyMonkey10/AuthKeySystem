@@ -4,8 +4,5 @@ if [ $qv == "Y" ]; then
   echo "Starting AuthyKey program..."
   python main.py
 else
-  echo "Please go to config/config.txt."
-  echo "On the first line, delete the comment that is there and fill it in with your MongoDB application connection (for python)"
-  echo "On the second line, put the lanaguage you are generating the key for py/js"
-  echo "Once done, run this script again and select Y on the first question"
+  echo "Please configure config/config.txt, then run this script again"
 fi
